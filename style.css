@@ -66,6 +66,7 @@ nav {
     display: flex;
     justify-content: flex-end;
     z-index: 3;
+
 }
 
 nav ul {
@@ -181,22 +182,27 @@ nav ul li a:hover {
 
     /* Navigation Bar - Keep it horizontal */
     nav {
-        width: 100%;
-        display: flex;
+        width: auto;
         justify-content: center;
-        background-color: #333;
-        padding: 10px 0;
         position: fixed; /* Keep it on top */
         top: 0;
         left: 0;
         z-index: 10;
+        overflow-x: auto;
+        white-space: nowrap;
+      -webkkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        
     }
 
-    nav ul {
+    nav ul :: -webkit-scrollbar{
         display: flex;
         flex-direction: row; /* Horizontal alignment */
         list-style: none;
         padding: 0;
+        display: none;
+        width: 0;
+        height: 0;
     }
 
     nav ul li {
