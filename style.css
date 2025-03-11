@@ -181,6 +181,11 @@ nav ul li a:hover {
         text-align: center;
     }
 
+    .nav-wrapper{
+        overflow: hidden;
+        width:100%;
+         box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
     /* Navigation Bar - Keep it horizontal */
     nav {
         width: auto;
