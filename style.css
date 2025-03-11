@@ -66,6 +66,7 @@ nav {
     display: flex;
     justify-content: flex-end;
     z-index: 3;
+   font-size: 19px;
 
 }
 
