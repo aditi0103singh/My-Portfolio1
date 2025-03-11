@@ -208,12 +208,15 @@ nav ul li a:hover {
 
     nav ul li {
         margin: 0 10px;
+        flex-shrink: 0;
+         width: auto;
     }
 
     nav ul li a {
         color: white;
         text-decoration: none;
         font-size: 16px;
+        padding: 12px 20px;
     }
 
     /* Center the Image */
